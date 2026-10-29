@@ -1,0 +1,47 @@
+{
+  "connectionMode": "Custom",
+  "host": "http://localhost:9048",
+  "keepConnected": false,
+  "keepServerRunning": false,
+  "transportMethod": "streamableHttp",
+  "authOption": "none",
+  "tools": [
+    {
+      "name": "rql-query",
+      "enabled": true
+    },
+    {
+      "name": "rql-mutate",
+      "enabled": true
+    },
+    {
+      "name": "rql-schema",
+      "enabled": true
+    },
+    {
+      "name": "script-execute",
+      "enabled": true
+    },
+    {
+      "name": "tests-run",
+      "enabled": true
+    },
+    {
+      "name": "unity-tool-list",
+      "enabled": true
+    },
+    {
+      "name": "screenshot-isolated",
+      "enabled": true
+    },
+    {
+      "name": "screenshot-game-view",
+      "enabled": true
+    },
+    {
+      "name": "screenshot-scene-view",
+      "enabled": true
+    }
+  ],
+  "skillAutoGenerate": {}
+}
